@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: #183153;
+    color: white;
+}   
+ul , li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Merienda';
+    font-weight: 80;
+}
+.logotipo{
+    width: 96px;
+    height: 96px;
+}
+
+.menu-content{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #fce1ee;
+    z-index: 2;
+    
+}
+@media (max-widht: 700px){
+    .menu{
+        display: none;
+    }
+}
+
